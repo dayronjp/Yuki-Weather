@@ -24,6 +24,18 @@ body {
     letter-spacing: 2px; 
   }
   
+  .logo {
+    max-inline-size: 75px;
+    animation: fadeIn 1s ease-in;
+  }
+
+  .logo img {
+    max-inline-size: 100%;
+    block-size: auto;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(160, 233, 255, 0.5);
+    transition: transform 0.3s;
+  }
 
   
   .search-bar {
