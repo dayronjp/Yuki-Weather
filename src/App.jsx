@@ -49,7 +49,7 @@ function App() {
 
   return (
     <div className="app-container">
-      <img src="src/assets/logo_transparente.png" alt="Logo" className="logo" />
+      <img src={logo} alt="Logo transparente" className="logo" />
       <h1 className="app-title">Yuki Weather</h1>
       <div className="search-bar">
         <input 
