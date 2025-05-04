@@ -4,6 +4,7 @@ import CurrentWeather from './components/CurrentWeather';
 import Forecast from './components/Forecast';
 import TemperatureChart from './components/TemperatureChart'; 
 import './App.css';
+import logo from './assets/logo_transparente.png';
 
 function App() {
   const [current, setCurrent] = useState(null);
@@ -48,7 +49,7 @@ function App() {
 
   return (
     <div className="app-container">
-      <img src="./src/assets/logo_transparente.png" alt="Logo" className="logo" />
+      <img src="src/assets/logo_transparente.png" alt="Logo" className="logo" />
       <h1 className="app-title">Yuki Weather</h1>
       <div className="search-bar">
         <input 
